@@ -3,8 +3,6 @@ package main
 
 import "fmt" //formatter module
 
-
-
 func main() {
 	//Using var
 	var name string = "Alex"
@@ -24,5 +22,5 @@ func main() {
 	name, email := "Alex", "alex@gmail.com"
 
 	fmt.Println(name, age, isCool, name2, email, size)
-	fmt.Printf("%T\n",email)
+	fmt.Printf("%T\n", email)
 }
