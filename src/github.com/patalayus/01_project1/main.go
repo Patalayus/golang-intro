@@ -1,7 +1,7 @@
 // this is go file
 package main
 
-import "fmt" //formatter module
+import "fmt"
 
 func main() {
 	fmt.Println("Hello World")
