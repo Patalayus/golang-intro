@@ -1,0 +1,2 @@
+to run go file in cmd, use:
+go run XXX.go
