@@ -1,8 +1,10 @@
 // this is go file
 package main
 
-import ("fmt"
-		"math")
+import (
+	"fmt"
+	"math"
+)
 
 //define interface
 type Shape interface {
@@ -30,7 +32,7 @@ func getArea(s Shape) float64 {
 }
 
 func main() {
-	circle := Circle{x: 0 ,y: 0 ,radius: 5}
+	circle := Circle{x: 0, y: 0, radius: 5}
 
 	rectangle := Rectangle{width: 10, height: 5}
 
